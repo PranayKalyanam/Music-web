@@ -102,7 +102,10 @@ const makeAllPlays = () => {
 document.getElementById('next').addEventListener('click', (e) => {
     if (songIndex >= 6) {
         songIndex = 1;
-    } else {
+    } else if(songIndex ==0){
+        songIndex += 2;
+    }
+    else {
         songIndex += 1;
     }
     // console.log(songItemPlay[songIndex-1]);
