@@ -35,6 +35,7 @@ masterPlay.addEventListener('click', () => {
         masterPlay.classList.remove('fa-circle-play');
         masterPlay.classList.add('fa-circle-pause');
         gif.style.opacity = 1;
+ 	if(songIndex >=1)
         songItemPlays(songItemPlay[songIndex-1]);
     }
     else {
