@@ -44,7 +44,7 @@ nav ul li {
 .container {
     background-color: black;
     color: white;
-    min-height: 65vh;
+    min-height: 85vh;
     display: flex;
     margin: 20px auto;
     width: 70%;
